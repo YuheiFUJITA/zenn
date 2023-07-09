@@ -59,11 +59,7 @@ https://openai.com/blog/chatgpt-plugins#code-interpreter
 ![Code Interpreterのチャットを共有するダイアログ](https://storage.googleapis.com/zenn-user-upload/003527621e02-20230709.png)
 :::
 
-### Pythonコードの実行
-
-まずはPythonのコードを実行してみた。
-
-#### QRコードの生成
+### QRコードの生成
 
 まずは[さきほどのツイート](https://twitter.com/OpenAI/status/1677015057316872192)などにもあったPythonのソースコードの実行を試してみた。
 
@@ -79,7 +75,7 @@ https://chat.openai.com/share/0dc61efe-b581-41cc-bf55-70644f29a1a7
 
 文字列以外でも出力可能なのはありがたい。
 
-#### Pythonによる計算
+### Pythonによる計算
 
 次に試してみたのは[OpenAIの記事](https://openai.com/blog/chatgpt-plugins#code-interpreter)にあったプロンプト。
 
@@ -89,7 +85,7 @@ https://chat.openai.com/share/6f407e0b-7a8a-447c-a41f-9740d33c305f
 
 以前からChatGPTは計算が苦手と言われてきたが、これで計算もできるようになったみたいだ。
 
-#### グラフの出力
+### グラフの出力
 
 他にも[OpenAIの記事](https://openai.com/blog/chatgpt-plugins#code-interpreter)の動画内で登場していたグラフの出力も試してみた。
 
@@ -99,17 +95,7 @@ https://chat.openai.com/share/c5a8f90b-2722-4296-8ba8-03e18ac4cce9
 
 なるほど、numpyのような有名なライブラリは利用できるらしい。
 
-### ファイルのアップロード
-
-Code Interpreterのもう1つの機能であるファイルのアップロードも試してみた。
-
-:::message
-これ以降はスクリーンショットが長くなるのでソースコードは非表示にしています。
-
-実際に実行されているPythonのソースコードが見たい場合は、記載している共有リンクを参照してください。
-:::
-
-#### Pythonファイルの実行
+### Pythonファイルの実行
 
 試しに、ChatGPTが出力したソースコードをそのままアップロードしてみた。
 
@@ -117,7 +103,7 @@ Code Interpreterのもう1つの機能であるファイルのアップロード
 
 https://chat.openai.com/share/4803fcc2-f3de-4515-b118-2a2b7d1e94c7
 
-#### CSVファイルからグラフ描画
+### CSVファイルからグラフ描画
 
 次に試してみたのはCSVファイル。今回は[e-Statで公開されている人口データ](https://www.e-stat.go.jp/stat-search/files?stat_infid=000031524010)を利用させてもらった。
 
@@ -131,7 +117,7 @@ https://chat.openai.com/share/7a248e54-fb17-43c2-bd69-27b5b0161c0a
 
 なお、画像（グラフ）の描画日本語を利用することはサポートしているフォントの都合上、現状ではできないようだ。
 
-#### PDFファイルの読み込み
+### PDFファイルの読み込み
 
 もう少し複雑なファイルとして、PDFファイルを読み込んでみた。
 
@@ -143,7 +129,7 @@ https://chat.openai.com/share/d3b46ec1-2c29-432b-804d-a0fd1c3ca9b7
 
 テキスト部分であれば読み込むことができていそうだ。ただし、画像やグラフ部分まで読み込めているわけではなさそうだ。仕様書や取り扱い説明書を読み込ませて回答させるみたいなことはある程度はできそうだが、レイアウトに依存する。
 
-#### ファイル変換
+### ファイル変換
 
 CSVの読み込みができることはわかったので、今度はそれを別のファイル形式に変換してみた。
 
@@ -157,7 +143,7 @@ https://chat.openai.com/share/aa599ba0-ce7d-492b-995d-ddf8e4d5e919
 
 ![CSVファイルから出力させたExcelファイル](https://storage.googleapis.com/zenn-user-upload/39b38c6d808e-20230709.png)
 
-#### スライドの作成
+### スライドの作成
 
 ExcelがいけるならPowerPointもいけるだろうということで、OpenAIの紹介スライドを作成してもらった。
 
@@ -171,7 +157,7 @@ https://chat.openai.com/share/5c065cb9-c17a-4648-a6da-105bc7613bb3
 
 ![](https://storage.googleapis.com/zenn-user-upload/cd9780e28259-20230709.png)
 
-#### 画像ファイルの処理
+### 画像ファイルの処理
 
 次は[OpenAIの記事](https://openai.com/blog/chatgpt-plugins#code-interpreter)の動画にもあった画像処理を試してみた。
 
@@ -183,7 +169,7 @@ https://chat.openai.com/share/7d8968a2-277d-4b52-9cf6-79d5c2ba02ff
 
 今回興味深かったのが、処理に失敗しても自らトライ＆エラーで解決を試みているところだ。
 
-#### 動画ファイルの処理
+### 動画ファイルの処理
 
 画像がいけるなら動画もいけるだろうということで、適当な動画をアップロードして写真同様に処理を試してみた。
 
