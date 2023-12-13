@@ -3,7 +3,7 @@ title: "GitHubとVitePressによる 開発ドキュメント運用"
 emoji: "🐈"
 type: "idea"
 topics: ["github", "markdown", "vitepress", "vuejs"]
-published: false
+published: true
 ---
 
 :::message
