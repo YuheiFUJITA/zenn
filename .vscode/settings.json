@@ -1,3 +1,5 @@
 {
-  "editor.tabSize": 2
+  "editor.tabSize": 2,
+  "japanese-proofreading.textlint.冗長な表現": false,
+  "cSpell.words": ["Codespaces"]
 }
