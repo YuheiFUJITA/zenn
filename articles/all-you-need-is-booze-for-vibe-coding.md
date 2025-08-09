@@ -3,7 +3,7 @@ title: "All you need is booze for vibe coding"
 emoji: "🍺"
 type: "idea"
 topics: [ai, vibecoding]
-published: false
+published: true
 ---
 
 この記事は後世のバイブコーダーのために泥酔冷めやらぬうちに書いた備忘録である。
